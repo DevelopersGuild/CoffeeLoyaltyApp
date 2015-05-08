@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="E8A-Zs-0VC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1vc-43-Zug">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -32,7 +32,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ASc-xK-iZB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="r3k-E4-R2N">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loyality Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93A-NV-1p5">
@@ -66,13 +66,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-wI-WPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="642" y="-632"/>
+            <point key="canvasLocation" x="641" y="-648"/>
         </scene>
         <!--Main Tab Bar View Controller-->
         <scene sceneID="cYV-Y2-a3k">
             <objects>
                 <tabBarController id="QA5-X8-7cl" customClass="MainTabBarViewController" customModule="CoffeeLoyaltyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Kb7-tE-sKt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -88,4 +89,7 @@
             <point key="canvasLocation" x="-176" y="-302"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Coffee" width="387" height="343"/>
+    </resources>
 </document>
