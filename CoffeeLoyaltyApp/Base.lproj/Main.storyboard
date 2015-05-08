@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="641" y="31"/>
         </scene>
-        <!--Item 1-->
+        <!--Login-->
         <scene sceneID="09a-Ld-sum">
             <objects>
-                <viewController id="9Bd-4z-YGJ" sceneMemberID="viewController">
+                <viewController id="9Bd-4z-YGJ" customClass="LoginViewController" customModule="CoffeeLoyaltyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bNi-D9-YvY"/>
                         <viewControllerLayoutGuide type="bottom" id="ASc-xK-iZB"/>
@@ -36,23 +36,83 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coffee" translatesAutoresizingMaskIntoConstraints="NO" id="fcc-XU-ek2">
-                                <rect key="frame" x="40" y="53" width="240" height="260"/>
+                                <rect key="frame" x="87" y="65" width="149" height="161"/>
                             </imageView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WT4-Ue-rph">
-                                <rect key="frame" x="99" y="377" width="123" height="29"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                </segments>
-                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="your name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Whw-j4-Scd">
+                                <rect key="frame" x="80" y="269" width="156" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ga-HM-VSC">
+                                <rect key="frame" x="93" y="362" width="126" height="30"/>
+                                <state key="normal" title="Forgot Password?">
+                                    <color key="titleColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zeC-21-wR5" kind="presentation" modalTransitionStyle="coverVertical" id="V5F-E9-q0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MME-xD-kv9">
+                                <rect key="frame" x="138" y="410" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k54-hi-8rK">
+                                <rect key="frame" x="80" y="319" width="156" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.83921568627450982" green="0.73333333333333328" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="aln-hR-OgO"/>
+                    <tabBarItem key="tabBarItem" title="Login" id="aln-hR-OgO"/>
+                    <connections>
+                        <outlet property="forgotPassword" destination="3Ga-HM-VSC" id="4ux-dq-gjc"/>
+                        <outlet property="loginButton" destination="MME-xD-kv9" id="ed1-3N-I5J"/>
+                        <outlet property="password" destination="k54-hi-8rK" id="nZk-C3-urW"/>
+                        <outlet property="yourName" destination="Whw-j4-Scd" id="AgK-DT-S5a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-wI-WPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="641" y="-648"/>
+        </scene>
+        <!--Forget Password View Controller-->
+        <scene sceneID="RYI-tJ-3q0">
+            <objects>
+                <viewController id="zeC-21-wR5" customClass="ForgetPasswordViewController" customModule="CoffeeLoyaltyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="unA-kb-DLJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Alk-NI-JSj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L4u-LP-kv6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bqY-pP-gqb">
+                                <rect key="frame" x="112" y="40" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jP1-Ay-WEj">
+                                <rect key="frame" x="142" y="72" width="36" height="30"/>
+                                <state key="normal" title="Send">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="bqY-pP-gqb" id="D02-Dm-kVc"/>
+                        <outlet property="sendEmail" destination="jP1-Ay-WEj" id="wk2-T7-ToM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Plf-Tz-Bab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="-654"/>
         </scene>
         <!--Main Tab Bar View Controller-->
         <scene sceneID="cYV-Y2-a3k">
