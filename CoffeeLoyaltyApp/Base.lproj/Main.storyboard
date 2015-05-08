@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="E8A-Zs-0VC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1vc-43-Zug">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -32,21 +32,34 @@
                         <viewControllerLayoutGuide type="bottom" id="ASc-xK-iZB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="r3k-E4-R2N">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coffee" translatesAutoresizingMaskIntoConstraints="NO" id="fcc-XU-ek2">
+                                <rect key="frame" x="40" y="53" width="240" height="260"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WT4-Ue-rph">
+                                <rect key="frame" x="99" y="377" width="123" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83921568627450982" green="0.73333333333333328" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="aln-hR-OgO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCO-wI-WPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="642" y="-632"/>
+            <point key="canvasLocation" x="641" y="-648"/>
         </scene>
         <!--Main Tab Bar View Controller-->
         <scene sceneID="cYV-Y2-a3k">
             <objects>
                 <tabBarController id="QA5-X8-7cl" customClass="MainTabBarViewController" customModule="CoffeeLoyaltyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Kb7-tE-sKt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,4 +75,7 @@
             <point key="canvasLocation" x="-176" y="-302"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Coffee" width="387" height="343"/>
+    </resources>
 </document>
