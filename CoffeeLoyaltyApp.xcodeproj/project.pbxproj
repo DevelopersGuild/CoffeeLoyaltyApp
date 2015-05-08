@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		04F7EC4D1AFD594F00C75D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EC4C1AFD594F00C75D15 /* AppDelegate.swift */; };
-		04F7EC4F1AFD594F00C75D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EC4E1AFD594F00C75D15 /* ViewController.swift */; };
 		04F7EC521AFD594F00C75D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC501AFD594F00C75D15 /* Main.storyboard */; };
 		04F7EC541AFD594F00C75D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC531AFD594F00C75D15 /* Images.xcassets */; };
 		04F7EC571AFD594F00C75D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */; };
 		04F7EC631AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */; };
+		9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		04F7EC471AFD594F00C75D15 /* CoffeeLoyaltyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeLoyaltyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EC4B1AFD594F00C75D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F7EC4C1AFD594F00C75D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04F7EC4E1AFD594F00C75D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04F7EC511AFD594F00C75D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F7EC531AFD594F00C75D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04F7EC561AFD594F00C75D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04F7EC5C1AFD594F00C75D15 /* CoffeeLoyaltyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeLoyaltyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EC611AFD594F00C75D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLoyaltyAppTests.swift; sourceTree = "<group>"; };
+		9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				04F7EC4C1AFD594F00C75D15 /* AppDelegate.swift */,
-				04F7EC4E1AFD594F00C75D15 /* ViewController.swift */,
 				04F7EC501AFD594F00C75D15 /* Main.storyboard */,
+				9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */,
 				04F7EC531AFD594F00C75D15 /* Images.xcassets */,
 				04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */,
 				04F7EC4A1AFD594F00C75D15 /* Supporting Files */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F7EC4F1AFD594F00C75D15 /* ViewController.swift in Sources */,
 				04F7EC4D1AFD594F00C75D15 /* AppDelegate.swift in Sources */,
+				9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +405,7 @@
 				04F7EC681AFD594F00C75D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F7EC691AFD594F00C75D15 /* Build configuration list for PBXNativeTarget "CoffeeLoyaltyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				04F7EC6B1AFD594F00C75D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
