@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QA5-X8-7cl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QA5-X8-7cl">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Item 2-->
         <scene sceneID="Zc5-0x-g2Z">
             <objects>
-                <viewController id="Lgz-BO-b71" sceneMemberID="viewController">
+                <viewController id="Lgz-BO-b71" customClass="MainViewController" customModule="CoffeeLoyaltyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LOM-gO-sNV"/>
                         <viewControllerLayoutGuide type="bottom" id="E8A-Zs-0VC"/>
@@ -16,40 +16,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLx-86-ERH">
-                                <rect key="frame" x="149" y="59" width="171" height="98"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="24"/>
-                                <state key="normal" title="Not Joe? Who are you?">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fO2-3d-Sf2">
+                                <rect key="frame" x="30" y="45" width="72" height="78"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balance:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YX1-YV-UuV">
+                                <rect key="frame" x="127" y="82" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vm-t3-mwO">
+                                <rect key="frame" x="142" y="45" width="51" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZr-Ij-mIF">
+                                <rect key="frame" x="202" y="82" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6je-QG-Dxc">
+                                <rect key="frame" x="201" y="45" width="103" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coffee Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh5-wO-1ep">
+                                <rect key="frame" x="16" y="170" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b7a-I8-L2c">
+                                <rect key="frame" x="85" y="221" width="150" height="150"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ha8-DO-blA">
+                                <rect key="frame" x="135" y="379" width="50" height="50"/>
+                                <state key="normal" image="Buy">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="selected" image="Buy_Pressed"/>
+                                <connections>
+                                    <action selector="buyButtonPressed:" destination="Lgz-BO-b71" eventType="touchUpInside" id="bOJ-zI-2f9"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Joe!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2c-bV-rzK">
-                                <rect key="frame" x="172" y="41" width="169" height="57"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="42"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loyalty Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVe-zL-6sL">
-                                <rect key="frame" x="172" y="165" width="132" height="33"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Orders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITe-xR-nZi">
-                                <rect key="frame" x="25" y="133" width="173" height="98"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="42"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGt-TL-Fs0">
+                                <rect key="frame" x="208" y="417" width="50" height="50"/>
+                                <state key="normal" image="Favorite">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Favorite_Pressed"/>
+                                <connections>
+                                    <action selector="favoriteButtonPressed:" destination="Lgz-BO-b71" eventType="touchUpInside" id="TDG-hM-TAB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vu4-GW-4c6">
+                                <rect key="frame" x="254" y="461" width="50" height="50"/>
+                                <state key="normal" image="Setting">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Setting_Pressed"/>
+                                <connections>
+                                    <action selector="settingButtonPressed:" destination="Lgz-BO-b71" eventType="touchUpInside" id="2EQ-H6-BOo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcA-aP-0Cy">
+                                <rect key="frame" x="16" y="461" width="50" height="50"/>
+                                <state key="normal" image="Menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Menu_Pressed"/>
+                                <connections>
+                                    <action selector="menuButtonPressed:" destination="Lgz-BO-b71" eventType="touchUpInside" id="h9o-s5-T6i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4A8-tj-cWE">
+                                <rect key="frame" x="69" y="417" width="50" height="50"/>
+                                <state key="normal" image="History">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Histroy_Pressed"/>
+                                <connections>
+                                    <action selector="historyButtonPressed:" destination="Lgz-BO-b71" eventType="touchUpInside" id="gb3-80-sdM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80977746210000001" green="0.65199509339999995" blue="0.3893350163" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="uM2-ZE-Djm"/>
+                    <connections>
+                        <outlet property="accountNameLabel" destination="6je-QG-Dxc" id="15g-6w-avB"/>
+                        <outlet property="balanceLabel" destination="eZr-Ij-mIF" id="D8q-ap-LBS"/>
+                        <outlet property="buyButton" destination="Ha8-DO-blA" id="1Xh-ep-Brn"/>
+                        <outlet property="favoriteButton" destination="eGt-TL-Fs0" id="464-ZS-LV1"/>
+                        <outlet property="favoriteCoffeeImageView" destination="b7a-I8-L2c" id="gjx-Fr-g7c"/>
+                        <outlet property="favoriteCoffeeLabel" destination="gh5-wO-1ep" id="piK-0F-ud8"/>
+                        <outlet property="historyButton" destination="4A8-tj-cWE" id="w1m-kd-Tse"/>
+                        <outlet property="menuButton" destination="lcA-aP-0Cy" id="SOM-JT-KY9"/>
+                        <outlet property="personalImageView" destination="fO2-3d-Sf2" id="GWt-c4-znw"/>
+                        <outlet property="settingButton" destination="vu4-GW-4c6" id="Kqp-1v-ufq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4uc-8h-fF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="641" y="31"/>
+            <point key="canvasLocation" x="872" y="-38"/>
         </scene>
         <!--Login-->
         <scene sceneID="09a-Ld-sum">
@@ -164,6 +236,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Buy" width="100" height="100"/>
+        <image name="Buy_Pressed" width="146" height="146"/>
         <image name="Coffee" width="387" height="343"/>
+        <image name="Favorite" width="100" height="100"/>
+        <image name="Favorite_Pressed" width="146" height="146"/>
+        <image name="History" width="100" height="100"/>
+        <image name="Histroy_Pressed" width="146" height="146"/>
+        <image name="Menu" width="100" height="100"/>
+        <image name="Menu_Pressed" width="146" height="146"/>
+        <image name="Setting" width="100" height="100"/>
+        <image name="Setting_Pressed" width="146" height="146"/>
     </resources>
 </document>
