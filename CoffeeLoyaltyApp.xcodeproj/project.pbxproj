@@ -12,9 +12,6 @@
 		04F7EC541AFD594F00C75D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC531AFD594F00C75D15 /* Images.xcassets */; };
 		04F7EC571AFD594F00C75D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */; };
 		04F7EC631AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */; };
-		0A7118421B18FFBD003F5062 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7118411B18FFBD003F5062 /* Menu.swift */; };
-		0A7118461B18FFE6003F5062 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7118451B18FFE6003F5062 /* CategoryCell.swift */; };
-		0A7118481B18FFEF003F5062 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7118471B18FFEF003F5062 /* CategoryCell.xib */; };
 		9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */; };
 		C2A897BB1AFD696900D3E1FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */; };
 		C2A897BD1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */; };
@@ -40,9 +37,6 @@
 		04F7EC5C1AFD594F00C75D15 /* CoffeeLoyaltyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeLoyaltyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EC611AFD594F00C75D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLoyaltyAppTests.swift; sourceTree = "<group>"; };
-		0A7118411B18FFBD003F5062 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../CoffeeLoyaltyApp1/CoffeeLoyaltyApp/Menu.swift; sourceTree = "<group>"; };
-		0A7118451B18FFE6003F5062 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = ../../CoffeeLoyaltyApp1/CoffeeLoyaltyApp/CategoryCell.swift; sourceTree = "<group>"; };
-		0A7118471B18FFEF003F5062 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryCell.xib; path = ../../CoffeeLoyaltyApp1/CoffeeLoyaltyApp/CategoryCell.xib; sourceTree = "<group>"; };
 		9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
@@ -91,10 +85,7 @@
 				04F7EC501AFD594F00C75D15 /* Main.storyboard */,
 				C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */,
 				C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */,
-				0A7118451B18FFE6003F5062 /* CategoryCell.swift */,
 				9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */,
-				0A7118411B18FFBD003F5062 /* Menu.swift */,
-				0A7118471B18FFEF003F5062 /* CategoryCell.xib */,
 				04F7EC531AFD594F00C75D15 /* Images.xcassets */,
 				04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */,
 				04F7EC4A1AFD594F00C75D15 /* Supporting Files */,
@@ -210,7 +201,6 @@
 				04F7EC521AFD594F00C75D15 /* Main.storyboard in Resources */,
 				04F7EC571AFD594F00C75D15 /* LaunchScreen.xib in Resources */,
 				04F7EC541AFD594F00C75D15 /* Images.xcassets in Resources */,
-				0A7118481B18FFEF003F5062 /* CategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +221,7 @@
 				C2A897BB1AFD696900D3E1FC /* LoginViewController.swift in Sources */,
 				04F7EC4D1AFD594F00C75D15 /* AppDelegate.swift in Sources */,
 				C2A897BD1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift in Sources */,
-				0A7118461B18FFE6003F5062 /* CategoryCell.swift in Sources */,
 				9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */,
-				0A7118421B18FFBD003F5062 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
