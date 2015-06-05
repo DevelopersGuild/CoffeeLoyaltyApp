@@ -12,6 +12,7 @@
 		04F7EC541AFD594F00C75D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC531AFD594F00C75D15 /* Images.xcassets */; };
 		04F7EC571AFD594F00C75D15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */; };
 		04F7EC631AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */; };
+		232758361B224D330008FFC2 /* login-logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 232758351B224D330008FFC2 /* login-logo copy.png */; };
 		9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */; };
 		C2A897BB1AFD696900D3E1FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */; };
 		C2A897BD1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */; };
@@ -37,6 +38,7 @@
 		04F7EC5C1AFD594F00C75D15 /* CoffeeLoyaltyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeLoyaltyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7EC611AFD594F00C75D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F7EC621AFD594F00C75D15 /* CoffeeLoyaltyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeLoyaltyAppTests.swift; sourceTree = "<group>"; };
+		232758351B224D330008FFC2 /* login-logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-logo copy.png"; sourceTree = "<group>"; };
 		9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		04F7EC491AFD594F00C75D15 /* CoffeeLoyaltyApp */ = {
 			isa = PBXGroup;
 			children = (
+				232758341B224C090008FFC2 /* images */,
 				04F7EC4C1AFD594F00C75D15 /* AppDelegate.swift */,
 				04F7EC501AFD594F00C75D15 /* Main.storyboard */,
 				C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */,
@@ -116,6 +119,14 @@
 				04F7EC611AFD594F00C75D15 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232758341B224C090008FFC2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				232758351B224D330008FFC2 /* login-logo copy.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232758361B224D330008FFC2 /* login-logo copy.png in Resources */,
 				04F7EC521AFD594F00C75D15 /* Main.storyboard in Resources */,
 				04F7EC571AFD594F00C75D15 /* LaunchScreen.xib in Resources */,
 				04F7EC541AFD594F00C75D15 /* Images.xcassets in Resources */,
