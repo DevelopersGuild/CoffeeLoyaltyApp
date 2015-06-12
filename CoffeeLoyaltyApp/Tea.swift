@@ -8,11 +8,11 @@
 
 import Foundation
 
-class Tea: Drinks {
+class Tea: Drink {
     var fruit:String = ""
     var teaTypes:String = ""
 
     init(name:String, size:Size, temperature:Temperature, fruits:String, teaTypes:String){
-
+        
     }
 }

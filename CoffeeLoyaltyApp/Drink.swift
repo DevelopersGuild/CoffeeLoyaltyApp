@@ -18,7 +18,7 @@ enum Temperature {
     case Cold
 }
 
-class Drinks {
+class Drink {
     var name: String = ""
     var image: String = ""
     var price: Double = 0.0
