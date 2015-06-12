@@ -12,22 +12,20 @@ enum Size {
     case Single
     case Double
 }
+
 enum Temperature {
     case Hot
     case Cold
 }
 
 class Drinks {
-
-
-    var name:String = ""
-    var image:String = ""
-    var price:Double = 0.0
-    var size:Size
+    var name: String = ""
+    var image: String = ""
+    var price: Double = 0.0
+    var size: Size
     var temperature: Temperature
     
-    init(name:String){
-
+    init(name:String) {
+        
     }
-
 }
