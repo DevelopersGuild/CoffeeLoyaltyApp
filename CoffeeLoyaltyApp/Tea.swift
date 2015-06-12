@@ -15,4 +15,20 @@ class Tea: Drink {
     init(name:String, size:Size, temperature:Temperature, fruits:String, teaTypes:String){
         
     }
+   enum TeaType {
+      case Plain
+      case Peach
+      case Passionfruit
+      case Raspberry
+      case Lemon
+      case Lime
+      case Orange
+      case Black
+      case DecafBlack
+      case EarlGrey
+      case Green
+      case Mint
+      case Camomile
+      case TazoOrange
+   }
 }
