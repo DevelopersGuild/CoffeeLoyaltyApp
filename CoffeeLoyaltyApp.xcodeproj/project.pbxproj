@@ -16,6 +16,7 @@
 		9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */; };
 		9C4079A61B2B8432009B5C9F /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4079A41B2B8432009B5C9F /* Drink.swift */; };
 		9C4079A71B2B8432009B5C9F /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4079A51B2B8432009B5C9F /* Tea.swift */; };
+		B78DED0E1B2B8E27000A875D /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78DED0D1B2B8E27000A875D /* Coffee.swift */; };
 		C2A897BB1AFD696900D3E1FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */; };
 		C2A897BD1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		9C4079A41B2B8432009B5C9F /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		9C4079A51B2B8432009B5C9F /* Tea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
+		B78DED0D1B2B8E27000A875D /* Coffee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		C2A897BA1AFD696900D3E1FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2A897BC1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				9C32B29C1AFD5F77005D390B /* MainTabBarViewController.swift */,
 				9C4079A41B2B8432009B5C9F /* Drink.swift */,
 				9C4079A51B2B8432009B5C9F /* Tea.swift */,
+				B78DED0D1B2B8E27000A875D /* Coffee.swift */,
 				04F7EC531AFD594F00C75D15 /* Images.xcassets */,
 				04F7EC551AFD594F00C75D15 /* LaunchScreen.xib */,
 				04F7EC4A1AFD594F00C75D15 /* Supporting Files */,
@@ -242,6 +245,7 @@
 				C2A897BD1AFD6E2000D3E1FC /* ForgetPasswordViewController.swift in Sources */,
 				9C4079A61B2B8432009B5C9F /* Drink.swift in Sources */,
 				9C32B29D1AFD5F77005D390B /* MainTabBarViewController.swift in Sources */,
+				B78DED0E1B2B8E27000A875D /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
