@@ -19,13 +19,34 @@ enum Temperature {
 }
 
 class Drink {
-    var name: String = ""
-    var image: String = ""
-    var price: Double = 0.0
-    var size: Size
+    var name: String
+    var image: String?
+    var price: Double?
+    var size: Size?
     var temperature: Temperature
     
-    init(name:String) {
-        
+    // Constructor for Preset Drinks
+    init(name:String, image:String?, price:Double, size:Size, temperature:Temperature)  //  not customizable
+    {
+        self.name = name
+        self.image = image
+        self.size = size
+        self.temperature = temperature
     }
+    
+    // Constructor for Etc. (Frozen Lemonade, Smoothies...)
+    init(name:String, price:Double, temperature:Temperature) //  not customizable
+    {
+        self.name = name
+        self.price = price
+        self.temperature = temperature
+    }
+    
+    convenience init(name:String, image:String, price:Double, temperature:Temperature) //  not customizable
+    {
+        self.init(name: name, price: price, temperature: temperature)
+        self.image = image
+    }
+    
+    
 }
